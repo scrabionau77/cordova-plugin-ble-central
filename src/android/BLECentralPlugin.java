@@ -491,6 +491,7 @@ public class BLECentralPlugin extends CordovaPlugin {
                 m.invoke(peripheral, (Object[]) null);
                 callbackContext.success();
             } catch (Exception e){
+                LOG.e(TAG, "Error unbonding: " + e.getMessage(), e);
                 callbackContext.error("Not unbonded");
             }
         } else {
