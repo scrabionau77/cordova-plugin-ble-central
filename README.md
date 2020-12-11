@@ -1,3 +1,5 @@
+NUOVA VERSIONE: unbond funzionante e permessi ridotti rispetto al plugin originale (non serve approvazione PlayStore!)
+
 # Bluetooth Low Energy (BLE) Central Plugin for Apache Cordova
 
 This plugin enables communication between a phone and Bluetooth Low Energy (BLE) peripherals.
